@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../css/style.css" />
+<title>BTMS - Bus Ticket Management System</title>
+</head>
+<body>
+<div id="header"></div>
+<div id="navigator">
+  <div class="nav-left">
+    <a href="../home.html" title="Trang chủ">Trang chủ</a> |
+    <a href="../about.html" title="Giới thiệu">Giới thiệu</a> | 
+    <a href="../contact.html" title="Liên hệ">Liên hệ</a>
+  </div>
+  <div class="nav-right">
+    <span>Xin chào <b>User</b></span> &nbsp;&nbsp; |
+    <a href="#" title="Đăng xuất">Đăng xuất</a>
+  </div>
+</div>
+<div id="center">
+  <div id="center-left">
+    <div class="profile">
+      <div class="title-section">Thông tin tài khoản</div>
+      <div class="content-section">
+        <form action="#" method="post">
+          <table width="100%" border="0" cellspacing="1" cellpadding="1">
+            <tr>
+              <td style="width:120px;">Tên tài khoản</td>
+              <td><input name="username" type="text" id="username" size="30" maxlength="50" readonly="readonly" /></td>
+            </tr>
+            <tr>
+              <td>Họ và tên</td>
+              <td><input name="name" type="text" id="name" size="30" maxlength="50" /></td>
+            </tr>
+            <tr>
+              <td>Số CMND</td>
+              <td><input name="id" type="text" id="id" size="30" maxlength="12" /></td>
+            </tr>
+            <tr>
+              <td>Địa chỉ</td>
+              <td><textarea name="address" cols="40" rows="3" id="address"></textarea></td>
+            </tr>
+            <tr>
+              <td>Số điện thoại</td>
+              <td><input name="phone" type="text" id="phone" size="30" maxlength="15" /></td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td><input name="email" type="text" id="email" size="30" maxlength="50" /></td>
+            </tr>
+            <tr>
+              <td>Quyền truy cập</td>
+              <td>
+              <select name="role" id="role">
+                <option value="1">Nhân viên bán vé</option>
+                <option value="2">Quản lý phòng vé</option>
+                <option value="3">Quản trị hệ thống</option>
+              </select>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+              <td><input type="submit" value="Lưu thông tin"/></td>
+              <td><input type="reset" value="Xóa"/></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+    <div class="password">
+      <div class="title-section">Thay đổi mật khẩu</div>
+      <div class="content-section">
+        <form action="#" method="post">
+          <table width="100%" cellpadding="1" cellspacing="1" border="0">
+            <tr>
+              <td style="width:150px;">Mật khẩu hiện tại</td>
+              <td><input name="pass_current" type="password" id="pass_current" size="30" maxlength="50" /></td>
+            </tr>
+            <tr>
+              <td>Mật khẩu mới</td>
+              <td><input name="pass_new" type="password" id="pass_new" size="30" maxlength="50" /></td>
+            </tr>
+            <tr>
+              <td>Nhập lại mật khẩu mới</td>
+              <td><input name="pass_renew" type="password" id="pass_renew" size="30" maxlength="50" /></td>
+            </tr>
+            <tr>
+              <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+              <td colspan="2"><input name="" type="submit" value="Lưu thông tin" /></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="center-right">
+    <div>
+      <h2>Hệ thống</h2>
+      <a href="profile.html">Thông tin tài khoản</a>
+      <a href="account.html">Danh sách tài khoản</a>
+      <a href="channel.html">Danh sách tuyến xe</a>
+      <a href="vehicles.html">Danh sách xe</a>
+    </div>
+    <div>
+      <h2>Chức năng</h2>
+      <a href="../main/create_schedule.html">Tạo lịch khởi hành các chuyến</a>
+      <a href="../main/search_schedule.html">Tìm kiếm chuyến khởi hành</a>
+      <a href="../main/book.html">Đặt vé</a>
+      <a href="../main/locate.html">Danh sách ghế ngồi</a>
+    </div>
+  </div>
+</div>
+<div id="footer">Designed & Developed By Phạm Đức Đệ</div>
+</body>
+</html>
